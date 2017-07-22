@@ -1,0 +1,39 @@
+* { box-sizing: border-box; }
+
+#wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top{
+    background-color: lightgray;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+li{
+    display: inline-block;
+    border: 1px solid gray;
+    background-color: lightgray;
+    padding: 3px;
+}
+
+.column {
+    width: 25%;
+    float: left; 
+    padding-right: 20px;
+}
+
+ .row { 
+    clear: both; 
+}  
+
+/* Screens 710px and less do this: */
+@media only screen and (max-width: 710px) {
+    .nav { display: none; }
+    .thirds { width: 33.333333%}
+    .full { width: 100%}
+}
